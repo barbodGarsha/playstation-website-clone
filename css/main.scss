@@ -1,0 +1,54 @@
+
+//FONTS ====================================================
+@font-face {
+    font-family: "SST";
+    src: url('../assets/fonts/sst/SSTRg.TTF') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SST";
+    src: url('../assets/fonts/sst/SSTBold.TTF') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SST";
+    src: url('../assets/fonts/sst/SSTLight.TTF') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+// COLORS ==================================================
+/* Khaki */
+$khaki-100: #fba919;
+$khaki-200: #ffda00;
+$khaki-300: #ffd900;
+$khaki-400: #faa61a;
+$khaki-500: #ffcc03;
+
+/* Gray */
+$gray-100: #1f1f1f;
+
+/* Vermilion */
+$vermilion-100: #f26122;
+$vermilion-200: #f04a23;
+$vermilion-300: #ef4123;
+
+/* Orange */
+$orange-100: #f58020;
+$orange-200: #f37321;
+
+/* Scarlet red */
+$scarletRed-100: #ed1c24;
+
+/* Blue */
+$blue-100: #0072ce;
+
+/* Blue violet */
+$blueViolet-100: #00256b;
+
+h1 {
+    font-family: 'SST';
+    font-weight: 400;
+}
