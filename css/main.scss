@@ -20,6 +20,10 @@
 }
 
 // COLORS ==================================================
+
+/* Natural */
+$white: #fff;
+
 /* Khaki */
 $khaki-100: #fba919;
 $khaki-200: #ffda00;
@@ -51,8 +55,64 @@ $blueViolet-100: #00256b;
 
 // MAIN ====================================================
 
-.blogs {
+.header {
 
+	.header__actions {
+
+	}
+
+	.header__actions__itm {
+
+	}
+
+	.header__dropdown-menu {
+
+	}
+
+	.header__dropdown-menu__bottom {
+
+	}
+
+	.header__dropdown-menu__bottom__nav {
+
+	}
+
+	.header__dropdown-menu__bottom__nav__itm {
+
+	}
+
+	.header__dropdown-menu__top {
+
+	}
+
+	.header__dropdown-menu__top__itm {
+
+	}
+
+	.header__dropdown-menu__top__itm__icon {
+
+	}
+
+	.header__dropdown-menu__top__itm__txt {
+
+	}
+
+	.header__logo {
+
+	}
+
+	.header__nav {
+
+	}
+
+	.header__nav__itm {
+
+	}
+
+}
+
+.blogs {
+    display: none;
 	.blogs__card {
 
 	}
@@ -128,14 +188,17 @@ $blueViolet-100: #00256b;
 }
 
 .btn {
+    display: none;
 
 }
 
 .btn--simple {
+    display: none;
 
 }
 
 .content {
+    display: none;
 
 	.equiments__viewer__details {
 
@@ -148,6 +211,7 @@ $blueViolet-100: #00256b;
 }
 
 .equipments {
+    display: none;
 
 	.equipments__image-container {
 
@@ -196,10 +260,12 @@ $blueViolet-100: #00256b;
 }
 
 .footer {
+    display: none;
 
 }
 
 .games {
+    display: none;
 
 	.games__actions {
 
@@ -232,6 +298,7 @@ $blueViolet-100: #00256b;
 }
 
 .gow {
+    display: none;
 
 	.gow__container {
 
@@ -251,63 +318,8 @@ $blueViolet-100: #00256b;
 
 }
 
-.header {
-
-	.header__actions {
-
-	}
-
-	.header__actions__itm {
-
-	}
-
-	.header__dropdown-menu {
-
-	}
-
-	.header__dropdown-menu__bottom {
-
-	}
-
-	.header__dropdown-menu__bottom__nav {
-
-	}
-
-	.header__dropdown-menu__bottom__nav__itm {
-
-	}
-
-	.header__dropdown-menu__top {
-
-	}
-
-	.header__dropdown-menu__top__itm {
-
-	}
-
-	.header__dropdown-menu__top__itm__icon {
-
-	}
-
-	.header__dropdown-menu__top__itm__txt {
-
-	}
-
-	.header__logo {
-
-	}
-
-	.header__nav {
-
-	}
-
-	.header__nav__itm {
-
-	}
-
-}
-
 .hero {
+    display: none;
 
 	.hero__slideshow {
 
@@ -364,6 +376,7 @@ $blueViolet-100: #00256b;
 }
 
 .merch {
+    display: none;
 
 	.merch__card {
 
@@ -408,6 +421,7 @@ $blueViolet-100: #00256b;
 }
 
 .ps-plus {
+    display: none;
 
 	.ps-plus__actions {
 
@@ -444,6 +458,7 @@ $blueViolet-100: #00256b;
 }
 
 .ps4 {
+    display: none;
 
 	.ps4__card {
 
@@ -480,10 +495,12 @@ $blueViolet-100: #00256b;
 }
 
 .search {
+    display: none;
 
 }
 
 .socials {
+    display: none;
 
 	.socials__container {
 
@@ -504,6 +521,7 @@ $blueViolet-100: #00256b;
 }
 
 .this-month {
+    display: none;
 
 	.this-month__bottom {
 
@@ -548,6 +566,7 @@ $blueViolet-100: #00256b;
 }
 
 .vr {
+    display: none;
 
 	.vr__container {
 
