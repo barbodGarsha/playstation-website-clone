@@ -1,7 +1,21 @@
 @font-face {
   font-family: "SST";
+  src: url("../assets/fonts/sst/SSTLight.TTF") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SST";
   src: url("../assets/fonts/sst/SSTRg.TTF") format("truetype");
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SST";
+  src: url("../assets/fonts/sst/SSTMedium.TTF") format("truetype");
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -12,16 +26,8 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "SST";
-  src: url("../assets/fonts/sst/SSTLight.TTF") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-}
-
 /* Natural */
 /* Khaki */
-/* Gray */
 /* Vermilion */
 /* Orange */
 /* Scarlet red */
@@ -66,17 +72,145 @@ li {
 
 .header {
   background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3rem 1.2rem;
+}
+
+.header .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__nav .header__nav__itm {
+  cursor: pointer;
+  color: #1f1f1f;
+  font-family: 'SST';
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 2.5rem;
+}
+
+.header .header__nav .header__nav__itm:hover {
+  color: #0072ce;
+}
+
+.header .header__dropdown-menu {
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__top .header__dropdown-menu__top__itm {
+  cursor: pointer;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 3rem;
+  margin: .8rem;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__top .header__dropdown-menu__top__itm .header__dropdown-menu__top__itm__txt {
+  font-size: .9375rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__top .header__dropdown-menu__top__itm:hover {
+  -webkit-box-shadow: 1px 1px 5px #adadad;
+          box-shadow: 1px 1px 5px #adadad;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: solid 1px #ccc;
+  width: 100%;
+  padding: 1rem;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__bottom .header__dropdown-menu__bottom__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__bottom .header__dropdown-menu__bottom__nav__itm {
+  cursor: pointer;
+  display: list-item;
+  font-size: .9375rem;
+  font-weight: 500;
+  line-height: 1rem;
+  margin-right: 2rem;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__bottom .header__dropdown-menu__bottom__nav__itm:hover {
+  color: #0072ce;
+}
+
+.header .header__dropdown-menu .header__dropdown-menu__bottom .header__dropdown-menu__bottom__nav__itm:before {
+  content: "\2022";
+  display: inline-block;
+  color: #0072ce;
+  font-weight: bold;
+  margin-left: -1em;
+  width: 1em;
 }
 
 .blogs {
-  display: none;
-}
-
-.btn {
-  display: none;
-}
-
-.btn--simple {
   display: none;
 }
 
