@@ -70,6 +70,23 @@ li {
   padding: 0;
 }
 
+.btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: #0072ce;
+  font-family: 'SST';
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1rem;
+  border: none;
+  border-radius: 1.7rem;
+  padding: .5rem 1.2rem;
+}
+
+.btn:hover {
+  background-color: #005499;
+}
+
 .header {
   background-color: #fff;
   position: -webkit-sticky;

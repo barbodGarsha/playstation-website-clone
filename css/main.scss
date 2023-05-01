@@ -55,6 +55,8 @@ $scarletRed-100: #ed1c24;
 
 /* Blue */
 $blue-100: #0072ce;
+$blue-300: #005499;
+
 
 /* Blue violet */
 $blueViolet-100: #00256b;
@@ -96,6 +98,31 @@ li {
 
 
 // MAIN ====================================================
+
+.btn {
+    cursor: pointer;
+
+    color: $white;
+    background-color: $blue-100;
+    
+    font-family: 'SST';
+    font-size: 1.2rem;
+    font-weight: 500;    
+    line-height: 1rem;
+    
+    border: none;
+    border-radius: 1.7rem;
+
+    padding: .5rem 1.2rem;
+    
+}
+
+.btn:hover {
+    background-color: $blue-300;
+}
+
+.btn--has-outline {
+}
 
 .header {
     background-color: $white;
@@ -316,12 +343,7 @@ li {
 
 }
 
-.btn {
 
-}
-
-.btn--simple {
-}
 
 .content {
     display: none;
