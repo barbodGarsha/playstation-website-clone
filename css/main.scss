@@ -140,6 +140,7 @@ li {
     align-items: center;
 
     padding: .3rem 1.2rem;
+	z-index: 999999;
 	.header__nav {
         display: flex;
         justify-content: flex-start;
