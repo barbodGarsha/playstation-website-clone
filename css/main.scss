@@ -407,7 +407,6 @@ li {
 		}
 
 		.equipments__image-container {
-			background-color: salmon;
 			width: 60%;
 			.equipments__img {
 				width: 100%;
@@ -417,20 +416,38 @@ li {
 	}
 
 	.equipments__slideshow-options {
-		background-color: #0072ce;
 
 		.equipments__slideshow {
-
+			display: flex;
+			justify-content: space-between;
 			.equipments__slideshow__itm {
-	
+				cursor: pointer;
+				overflow: hidden;
+				width: 13rem;
+				height: 12rem;
+
+				border-radius: 16px;
 				.equipments__slideshow__itm__img {
+					width: 100%;
 		
+					padding: 1.1rem;
+					padding-bottom: 0;
 				}
 			
 				.equipments__slideshow__itm__text {
-			
+					text-align: center;
+					
+					font-family: 'SST';
+					font-weight: 400;
+					font-size: 1.1rem;
+	
+					opacity: .7;
+					margin: .5rem 0;
 				}
 			
+			}
+			.equipments__slideshow__itm--selected {
+				border: solid $blue-100 3px;
 			}
 		}
 	}
