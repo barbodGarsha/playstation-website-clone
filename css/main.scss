@@ -116,12 +116,18 @@ li {
     padding: .5rem 1.2rem;
     
 }
-
 .btn:hover {
     background-color: $blue-300;
 }
 
 .btn--has-outline {
+}
+
+.btn--white {
+    
+}
+.btn--white:hover {
+
 }
 
 .header {
@@ -164,6 +170,7 @@ li {
     .header__dropdown-menu {
         background-color:  $white;
         position: absolute;
+        display: none;
         top: 100%;
         left: 0;
 
@@ -267,6 +274,96 @@ li {
 
 }
 
+.hero {
+
+	.hero__viewer {
+        background-image: url('../assets/images/Horizon-Burning-Shores-hero-desktop-01-en-23feb235.jpg');
+        background-size: 100% auto;
+
+
+        padding: 4rem 12rem;
+        .hero__viewer__container {
+            width: 40%;
+
+        }
+    
+        .hero__viewer__media {
+            .hero__viewer__img {
+                height: 14rem;
+        
+            }
+        }
+    
+        .hero__viewer__info {
+            color: $white;
+
+            .hero__viewer__title {
+                font-family: 'SST';
+                font-weight: 300;
+                font-size: 2.8rem;
+
+                margin-bottom: 2rem;
+            }
+    
+            .hero__viewer__details {
+        
+                font-family: 'SST';
+                font-weight: 400;
+                font-size: 1.1rem;
+
+                margin-bottom: 2rem;
+            }
+        }
+    
+	}
+    
+    .hero__slideshow-btn {
+        display: none;
+        .hero__slideshow-btn__icon {
+
+        }
+    }
+
+	.hero__slideshow-options {
+		width: 100%;
+		height: 30vh;
+		
+        padding: 4rem 12rem 18rem 12rem ;
+    }
+      
+	.hero__slideshow {
+		display: flex;
+
+		justify-content: space-between;
+		align-items: center;
+        .hero__slideshow__itm {
+			cursor: pointer;
+
+			overflow: hidden;
+			background-color: whitesmoke;
+			width: 18rem;
+			height: 10rem;
+
+			border-radius: 12px;
+            .hero__slideshow__itm__img {
+				width: 100%;
+    
+            }
+			transition: 200ms;
+        }
+	}
+	.hero__slideshow:hover {
+		.hero__slideshow__itm:hover {
+			transform: translateY(-10%);
+			box-shadow: 0px 12px 15px rgba($color: #000, $alpha: .5);
+		}
+		
+		.hero__slideshow__itm:not(:hover) {
+			opacity: .7;
+		}
+	}
+}
+
 .blogs {
     display: none;
 	.blogs__card {
@@ -343,11 +440,8 @@ li {
 
 }
 
-
-
 .content {
-    display: none;
-
+   
 	.equiments__viewer__details {
 
 	}
@@ -465,62 +559,6 @@ li {
 
 }
 
-.hero {
-    display: none;
-
-	.hero__slideshow {
-
-	}
-
-	.hero__slideshow-btn {
-
-	}
-
-	.hero__slideshow-btn__icon {
-
-	}
-
-	.hero__slideshow-options {
-
-	}
-
-	.hero__slideshow__itm {
-
-	}
-
-	.hero__slideshow__itm__img {
-
-	}
-
-	.hero__viewer {
-
-	}
-
-	.hero__viewer__container {
-
-	}
-
-	.hero__viewer__details {
-
-	}
-
-	.hero__viewer__img {
-
-	}
-
-	.hero__viewer__info {
-
-	}
-
-	.hero__viewer__media {
-
-	}
-
-	.hero__viewer__title {
-
-	}
-
-}
 
 .merch {
     display: none;

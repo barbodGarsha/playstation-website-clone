@@ -284,12 +284,17 @@ li {
 
 .hero .hero__slideshow .hero__slideshow__itm {
   cursor: pointer;
+  overflow: hidden;
   background-color: whitesmoke;
   width: 18rem;
   height: 10rem;
   border-radius: 12px;
   -webkit-transition: 200ms;
   transition: 200ms;
+}
+
+.hero .hero__slideshow .hero__slideshow__itm .hero__slideshow__itm__img {
+  width: 100%;
 }
 
 .hero .hero__slideshow:hover .hero__slideshow__itm:hover {
@@ -300,7 +305,7 @@ li {
 }
 
 .hero .hero__slideshow:hover .hero__slideshow__itm:not(:hover) {
-  opacity: .8;
+  opacity: .7;
 }
 
 .blogs {
