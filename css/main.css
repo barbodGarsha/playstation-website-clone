@@ -392,6 +392,63 @@ li {
   border: solid #0072ce 3px;
 }
 
+.ps-plus {
+  background-image: url("../assets/images/ps-plus-monthly-games-banner-desktop-01-en-27may22.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+.ps-plus .ps-plus__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  padding: 0rem 12rem;
+}
+
+.ps-plus .ps-plus__container .ps-plus__info .ps-plus__media {
+  margin-bottom: 2rem;
+}
+
+.ps-plus .ps-plus__container .ps-plus__info .ps-plus__media .ps-plus__media__img {
+  width: 30rem;
+}
+
+.ps-plus .ps-plus__container .ps-plus__info .ps-plus__details {
+  font-family: 'SST';
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.ps-plus .ps-plus__image-container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ps-plus .ps-plus__image-container .ps-plus__img {
+  width: 40rem;
+}
+
 .blogs {
   display: none;
 }
@@ -409,10 +466,6 @@ li {
 }
 
 .merch {
-  display: none;
-}
-
-.ps-plus {
   display: none;
 }
 
