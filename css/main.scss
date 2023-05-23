@@ -762,7 +762,70 @@ li {
 
 }
 
+.ps4 {
 
+	width: 100%;
+
+	padding: 2rem 12rem;
+
+	.ps4__container {
+		display: flex;
+
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		.ps4__title {
+			text-align: center;
+
+			font-family: 'SST';
+			font-weight: 300;
+			font-size: 2.8rem;
+
+			margin-bottom: 2rem;
+		}
+	
+		.ps4__txt {
+			text-align: center;
+
+			font-family: 'SST';
+			font-weight: 400;
+			font-size: 1.5rem;
+
+			opacity: .7;
+			margin-bottom: 2rem;
+			padding: 0 12rem;
+		}
+		
+		.ps4__cards {
+			
+			display: flex;
+			.ps4__card {
+				flex: 1;
+				.ps4__card__img {
+					width: 100%;
+				}
+			
+				.ps4__card__title {
+					font-family: 'SST';
+					font-weight: 300;
+					font-size: 2.8rem;
+
+					margin-bottom: 1rem;
+				}
+			
+				.ps4__card__txt {
+					font-family: 'SST';
+					font-weight: 400;
+					font-size: 1.5rem;
+		
+					opacity: .7;
+					margin-bottom: 1rem;
+				}	
+			}
+		}
+	}
+}
 
 .blogs {
     display: none;
@@ -898,43 +961,6 @@ li {
 
 }
 
-
-.ps4 {
-    display: none;
-
-	.ps4__card {
-
-	}
-
-	.ps4__card__img {
-
-	}
-
-	.ps4__card__title {
-
-	}
-
-	.ps4__card__txt {
-
-	}
-
-	.ps4__cards {
-
-	}
-
-	.ps4__container {
-
-	}
-
-	.ps4__title {
-
-	}
-
-	.ps4__txt {
-
-	}
-
-}
 
 .search {
     display: none;

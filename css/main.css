@@ -674,6 +674,76 @@ li {
   display: none;
 }
 
+.ps4 {
+  width: 100%;
+  padding: 2rem 12rem;
+}
+
+.ps4 .ps4__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ps4 .ps4__container .ps4__title {
+  text-align: center;
+  font-family: 'SST';
+  font-weight: 300;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.ps4 .ps4__container .ps4__txt {
+  text-align: center;
+  font-family: 'SST';
+  font-weight: 400;
+  font-size: 1.5rem;
+  opacity: .7;
+  margin-bottom: 2rem;
+  padding: 0 12rem;
+}
+
+.ps4 .ps4__container .ps4__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ps4 .ps4__container .ps4__cards .ps4__card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.ps4 .ps4__container .ps4__cards .ps4__card .ps4__card__img {
+  width: 100%;
+}
+
+.ps4 .ps4__container .ps4__cards .ps4__card .ps4__card__title {
+  font-family: 'SST';
+  font-weight: 300;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.ps4 .ps4__container .ps4__cards .ps4__card .ps4__card__txt {
+  font-family: 'SST';
+  font-weight: 400;
+  font-size: 1.5rem;
+  opacity: .7;
+  margin-bottom: 1rem;
+}
+
 .blogs {
   display: none;
 }
@@ -683,10 +753,6 @@ li {
 }
 
 .merch {
-  display: none;
-}
-
-.ps4 {
   display: none;
 }
 
