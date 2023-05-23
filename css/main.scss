@@ -61,6 +61,11 @@ $blue-300: #005499;
 /* Blue violet */
 $blueViolet-100: #00256b;
 
+/* Purple */
+$purple: #26254f;
+
+
+
 
 // Resets ==================================================
 html {
@@ -454,7 +459,6 @@ li {
 
 }
 
-
 .ps-plus {
 	background-image: url("../assets/images/ps-plus-monthly-games-banner-desktop-01-en-27may22.jpg");
 	background-size: cover;
@@ -549,6 +553,99 @@ li {
 				margin-bottom: 2rem;
 			}
 		}
+	}
+
+}
+
+.this-month {
+
+	width: 100%;
+
+	.this-month__top {
+		background-image: url("../assets/images/this-month-on-playstation-apr-homepage-background-desktop-01-en-16mar23.jpg");
+		background-size: cover;
+			
+		height: 50vh;
+			
+		padding: 0 12rem;
+		padding-top: 5rem;
+		.this-month__top__container {
+			.this-month__info {
+
+				.this-month__title {
+					color: $white;
+
+					font-family: 'SST';
+					font-weight: 300;
+					font-size: 2.5rem;
+	
+					margin-bottom: 2rem;
+				}
+				.this-month__title--bold {
+					font-weight: 700;
+				}
+
+				.this-month__details {
+			
+					color: $white;
+
+					font-family: 'SST';
+					font-weight: 400;
+					font-size: 1.2rem;
+	
+					opacity: 0.7;
+
+					margin-bottom: 2rem;
+					padding-right: 55%;
+				}
+			}
+		}
+	}
+
+	.this-month__bottom {
+		
+		background-color: $purple;
+		height: 45vh;
+		
+		padding: 0 12rem;
+		.this-month__bottom__container {
+			display: flex;
+			justify-content: space-between;
+			.this-month__card {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				
+				width: 33rem;
+
+				.this-month__card__img {
+					cursor: pointer;
+					width: 90%;
+					border-radius: 12px;
+
+					margin-bottom: 2rem;
+
+					box-shadow: 0 10px 15px rgba($color: #000000, $alpha: .8);
+					
+					transition: 500ms;
+				}
+				.this-month__card__img:hover {
+					scale: 1.02;
+				}
+			
+				.this-month__card__text {
+					color: $white;
+
+					text-align: center;
+
+					font-family: 'SST';
+					font-weight: 400;
+					font-size: 1.8rem;
+	
+					margin-bottom: 2rem;
+				}
+			}
+		}	
 	}
 
 }
@@ -803,48 +900,4 @@ li {
 
 }
 
-.this-month {
-    display: none;
-
-	.this-month__bottom {
-
-	}
-
-	.this-month__bottom__container {
-
-	}
-
-	.this-month__card {
-
-	}
-
-	.this-month__card__img {
-
-	}
-
-	.this-month__card__text {
-
-	}
-
-	.this-month__details {
-
-	}
-
-	.this-month__info {
-
-	}
-
-	.this-month__title {
-
-	}
-
-	.this-month__top {
-
-	}
-
-	.this-month__top__container {
-
-	}
-
-}
 
