@@ -1058,6 +1058,41 @@ li {
 
 }
 
+.socials {
+	background-color: rgba($gray, $alpha: .15);
+	width: 100%;
+
+	padding-top: 4rem;
+	padding-bottom: 7rem;
+
+	.socials__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.socials__icon {
+		width: 8rem;
+		
+		margin: 0 1rem;
+	}
+
+	.socials__list {
+		display: flex;
+		justify-content: center;
+	}
+
+	.socials__title {
+		font-family: 'SST';
+		font-weight: 300;
+		font-size: 1.9rem;
+
+		margin-bottom: 2rem;
+	}
+
+}
+
 .content {
    
 
@@ -1073,25 +1108,5 @@ li {
 
 }
 
-.socials {
-    display: none;
-
-	.socials__container {
-
-	}
-
-	.socials__icon {
-
-	}
-
-	.socials__list {
-
-	}
-
-	.socials__title {
-
-	}
-
-}
 
 

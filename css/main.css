@@ -986,15 +986,55 @@ li {
   background-color: #005499;
 }
 
+.socials {
+  background-color: rgba(204, 204, 204, 0.15);
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+}
+
+.socials .socials__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socials .socials__icon {
+  width: 8rem;
+  margin: 0 1rem;
+}
+
+.socials .socials__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.socials .socials__title {
+  font-family: 'SST';
+  font-weight: 300;
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+}
+
 .footer {
   display: none;
 }
 
 .search {
-  display: none;
-}
-
-.socials {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */
