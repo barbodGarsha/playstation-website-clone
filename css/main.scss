@@ -827,6 +827,88 @@ li {
 	}
 }
 
+.merch {
+	background-image: url("../assets/images/ps-gear-evergreen-background-block-desktop-01-en-27may22.jpg");
+	background-size: cover;
+	
+	width: 100%;
+	min-height: 100vh;
+	.merch__container {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		padding: 4rem 12rem;
+	
+		.merch__infos {
+			padding-right: 48%;
+		
+			.merch__icon {
+				width: 7rem;
+			}
+
+			.merch__title {
+				color: $white;
+
+				font-family: 'SST';
+				font-weight: 300;
+				font-size: 2.5rem;
+
+				margin-bottom: 2rem;
+			}
+	
+			.merch__txt {
+				color: $white;
+
+				font-family: 'SST';
+				font-weight: 400;
+				font-size: 1.2rem;
+
+				margin-bottom: 2rem;
+				opacity: .7;
+			}
+		}	
+
+		.merch__cards {
+			display: flex;
+			justify-content: space-between;
+
+			margin-bottom: 4rem;
+			.merch__card {	
+				background-color: rgba(#000, $alpha: .5);
+			
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+
+				width: 24%;
+
+				padding: 3rem 2rem;
+				.merch__card__img {
+					width: 90%;
+		
+				}
+			
+				.merch__card__title {
+					color: $white;
+
+					text-align: center;
+
+					font-family: 'SST';
+					font-weight: 300;
+					font-size: 1.3rem;
+					
+					margin-bottom: 4rem	;
+				}
+			}
+		}
+
+	}
+}
+
+
 .blogs {
     display: none;
 	.blogs__card {
@@ -912,55 +994,6 @@ li {
 .footer {
     display: none;
 }
-
-
-
-
-.merch {
-    display: none;
-
-	.merch__card {
-
-	}
-
-	.merch__card__img {
-
-	}
-
-	.merch__card__title {
-
-	}
-
-	.merch__card__txt {
-
-	}
-
-	.merch__cards {
-
-	}
-
-	.merch__container {
-
-	}
-
-	.merch__icon {
-
-	}
-
-	.merch__infos {
-
-	}
-
-	.merch__title {
-
-	}
-
-	.merch__txt {
-
-	}
-
-}
-
 
 .search {
     display: none;
