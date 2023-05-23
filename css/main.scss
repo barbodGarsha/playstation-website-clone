@@ -512,6 +512,47 @@ li {
 
 }
 
+.vr {
+	background-image: url("../assets/images/psvr2-register-homepage-hero-desktop-01-en-14nov22.jpg");
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	
+	width: 100%;
+	height: 73vh;
+
+	.vr__container {
+		
+		padding-left: 12rem;
+		padding-right: 55%;
+		.vr__info {
+			
+
+			.vr__title {
+				color: $white;
+
+				font-family: 'SST';
+				font-weight: 300;
+				font-size: 2.5rem;
+
+				margin-bottom: 2rem;
+			}
+		
+			.vr__details {		
+				color: $white;
+
+				font-family: 'SST';
+				font-weight: 400;
+				font-size: 1.2rem;
+
+				margin-bottom: 2rem;
+			}
+		}
+	}
+
+}
+
 .blogs {
     display: none;
 	.blogs__card {
@@ -802,27 +843,6 @@ li {
 	}
 
 	.this-month__top__container {
-
-	}
-
-}
-
-.vr {
-    display: none;
-
-	.vr__container {
-
-	}
-
-	.vr__details {
-
-	}
-
-	.vr__info {
-
-	}
-
-	.vr__title {
 
 	}
 
